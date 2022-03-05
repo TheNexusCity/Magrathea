@@ -28,7 +28,6 @@ namespace SeinJS
         public static string DefaultExportFolder = "/../Outputs";
         public static string DefaultImportFolder = "./Resources";
         public static string AppDataPath;
-
         static string configPath = "";
         static string exportPath = "";
         static string importPath = "";

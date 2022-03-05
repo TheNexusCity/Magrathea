@@ -14,7 +14,7 @@ public class SeinRigidBody : MonoBehaviour
     public bool unControl = false;
     public bool physicStatic = false;
     public bool sleeping = false;
-
+    
     public static SeinRigidBody CreateBodyForPickOnly()
     {
         var body = new SeinRigidBody();

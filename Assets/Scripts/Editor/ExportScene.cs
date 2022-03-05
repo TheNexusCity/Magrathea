@@ -770,10 +770,10 @@ namespace Magrathea
             }
             string exportFolder = Path.Combine(PipelineSettings.ProjectFolder, "assets");
             DirectoryInfo outDir = new DirectoryInfo(exportFolder);
-            if (!outDir.Exists)
+            /*if (!outDir.Exists)
             {
                 Directory.CreateDirectory(exportFolder);
-            }
+            }*/
 
             var files = directory.GetFiles();
             var subDirectories = directory.GetDirectories();
